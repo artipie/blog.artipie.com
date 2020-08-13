@@ -1,0 +1,63 @@
+---
+layout: default
+title: "Blog About Binary Artifact Management"
+description: |
+  We blog about binary artifact management and
+  share our experience in using existing tools
+  and our own one: Artipie
+keywords:
+  - artifacts
+  - artipie
+---
+
+<article itemscope="" itemtype="http://schema.org/Blog">
+{% for post in paginator.posts %}
+  <div class="front" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <h1>
+      <a href="{{ post.url }}">
+        <span itemprop="name headline mainEntityOfPage">{{ post.title }}</span>
+      </a>
+    </h1>
+    <ul class="subline">
+      <li>
+        <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date_to_string }}
+        </time>
+      </li>
+      <li>
+        <a href="{{ site.url }}{{ post.url }}#disqus_thread" itemprop="discussionUrl">comments</a>
+      </li>
+    </ul>
+    <div class="main" itemprop="description">
+      {{ post.excerpt }}
+    </div>
+    <p>
+      <a href="{{ post.url }}" itemprop="url">
+        Continue...
+      </a>
+    </p>
+  </div>
+{% endfor %}
+  <div class="pagination">
+    <div class="left">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <a href="/"><i class="icon icon-fast-backward"></i></a>
+        {% else %}
+          <a href="/p/{{ paginator.previous_page }}"><i class="icon icon-fast-backward"></i></a>
+        {% endif %}
+      {% else %}
+        <span class="mute"><i class="icon icon-fast-backward"></i></span>
+      {% endif %}
+    </div>
+    page {{ paginator.page }} из {{ paginator.total_pages }}
+    <div class="right">
+      {% if paginator.next_page %}
+        <a href="/p/{{ paginator.next_page }}"><i class="icon icon-fast-forward"></i></a>
+      {% else %}
+        <span class="mute"><i class="icon icon-fast-forward"></i></span>
+      {% endif %}
+    </div>
+  </div>
+</article>
+

@@ -1,0 +1,43 @@
+title: How to Maintain Binary Artifacts
+email: team@artipie.com
+description: >
+  We blog about binary artifact management and
+  share our experience in using existing tools
+  and our own one: Artipie
+baseurl: ""
+url: "https://blog.artipie.com"
+twitter_username: yegor256
+github_username: yegor256
+markdown: kramdown
+author:
+  name: "Artipie"
+  email: team@artipie.com
+encoding: utf-8
+timezone: Europe/Moscow
+permalink: :year-:month-:day-:title.html
+exclude:
+  - README.md
+  - Gemfile.lock
+  - Gemfile
+  - Rakefile
+  - LICENSE.txt
+  - id_rsa.enc
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 8
+paginate_path: "p/:num"
+excerpt_separator: <!--more-->
+
+feed:
+  title: blog.artipie.com
+  subtitle: How to Maintain Binary Artifacts
+  path: rss.xml
+
+sass:
+  style: compressed
+  deploy_style: compressed
+  compile_in_place: false

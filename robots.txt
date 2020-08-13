@@ -1,0 +1,1 @@
+sitemap: https://blog.artipie.com/sitemap.xml
