@@ -2,6 +2,7 @@
 layout: post
 date: 2020-08-13
 title: "Why Artipie"
+author: yegor256
 description: |
   Artipie is a new binary artifacts manager, similar
   to existing ones like Artifactory and Nexus, but

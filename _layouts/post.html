@@ -6,6 +6,11 @@ layout: default
   <h1 itemprop="name headline mainEntityOfPage">{{ page.title }}</h1>
   <ul class="subline">
     <li>
+      <time itemprop="author">
+        <a href="https://github.com/{{ page.author }}">@{{ page.author }}</a>
+      </time>
+    </li>
+    <li>
       <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date_to_string }}
       </time>
