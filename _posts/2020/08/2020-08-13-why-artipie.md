@@ -13,8 +13,9 @@ keywords:
   - hosting of artifacts
 ---
 
-Artipie is a new binary artifact management toolkit, which is
-very similar to Nexus and Artifactory, but with a number of important
+[Artipie](https://www.artipie.com) is a new binary artifact management toolkit, which is
+very similar to [Nexus&trade;](https://www.sonatype.com/product-nexus-repository)
+and [Artifactory&trade;](https://jfrog.com/artifactory), but with a number of important
 advantages. First, it's fully open source. Second, it provides
 high-availaibility out of the box (you can scale it horizontally).
 Third, it supports 10+ package managers, including Maven, NuGet,
