@@ -3,14 +3,17 @@ layout: post
 date: 2020-08-28
 title: "Using Artipie as a maven repository"
 author: Sammers21
-description: |
-    The blog post explains how to use Artipie as maven repository.
+description: The blog post explains how to use Artipie as maven repository.
 keywords:
   - artipie
   - maven
   - java
   - hosting of artifacts
 ---
+
+## Introduction
+
+The blog post explains how to install and configure Artipie as a maven repository.
 
 ## Installation
 
@@ -42,7 +45,7 @@ repo:
     path: /var/artipie/data
 ```
 
-As a results, you will have the following file structure:
+As a results, you will have the following files structure:
 
 ```bash
 .
