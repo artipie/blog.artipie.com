@@ -13,7 +13,7 @@ keywords:
 
 ## Introduction
 
-This blog post explains how to install Artipie and configure it as a maven repository.
+In this blog post i will explain how to install Artipie and configure it as a maven repository.
 
 ## Installation
 
