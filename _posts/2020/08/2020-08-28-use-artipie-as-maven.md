@@ -30,7 +30,11 @@ meta:
 Then you can install and run artipie with docker:
 
 ```bash
-$ docker run --rm -d --name artipie -it -v $(pwd)/artipie.yaml:/etc/artipie.yml $(pwd):/var/artipie -p 8080:80 artipie/artipie:latest
+$ docker run -d --name artipie \
+             -v $(pwd)/artipie.yaml:/etc/artipie.yml \
+             -v $(pwd):/var/artipie \
+             -p 8080:80 \
+             artipie/artipie:latest
 ```
 
 ## Configuring Artipie as a maven repository
