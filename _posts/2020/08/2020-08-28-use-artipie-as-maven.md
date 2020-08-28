@@ -84,6 +84,6 @@ That is it.
 
 ## Advanced options
 
-Apart from the demonstrated possibilities, Artipie Maven supports: group repositories, proxies and authorization.
+Apart from demonstrated possibilities, Artipie Maven supports: group repositories, proxies and authorization.
 Check out the corresponding [documentation section](https://github.com/artipie/artipie/tree/master/examples/maven)
 for more details.
