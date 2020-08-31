@@ -20,7 +20,7 @@ jb_picture:
 {% jb_picture_body %}
 
 [v0.10](https://github.com/artipie/artipie/releases/tag/0.10) was released on August 31, 
-here is the list of key features introduced by the release:
+here is the list of key features introduced this month:
 
 ### Maven adapter
 Maven deploy workflow improved:
@@ -35,7 +35,7 @@ now provide Python Repository which `pip` or `twine` can perfectly understand.
 ### Storage locking system
 We implemented distributed cluster [lock](https://github.com/artipie/asto/issues/214) mechanism 
 to provide safe storage modification, [expiration](https://github.com/artipie/asto/issues/231) 
-and retry operation are supported. 
+and retry operations are also supported. 
 Distributed storage locks are already used in 
 [rpm-adapter](https://github.com/artipie/rpm-adapter/issues/340).
 
