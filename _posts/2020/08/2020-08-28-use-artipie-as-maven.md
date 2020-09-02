@@ -14,7 +14,7 @@ keywords:
 ## Introduction
 
 Almost every company that does Java development has private Maven repository,
-where they storing all the artifacts. As a developer you might be wondering
+where they store all the artifacts. As a developer you might be wondering
 how to setup our own.
 
 This blog post will cover how you can setup your own Maven repository with Artipie.
