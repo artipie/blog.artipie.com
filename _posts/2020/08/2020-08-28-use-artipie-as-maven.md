@@ -102,4 +102,4 @@ for more details.
 ## Conclusion
 
 In this blog post it's been explained how to setup own Maven repository and how to
-configure your project to use it.
+configure a Maven project to use it.
