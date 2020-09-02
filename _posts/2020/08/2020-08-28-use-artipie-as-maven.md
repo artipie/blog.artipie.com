@@ -13,7 +13,11 @@ keywords:
 
 ## Introduction
 
-In this blog post i will explain how to install Artipie and configure it as a maven repository.
+Almost every company that does Java development has private Maven repository,
+where they storing all the artifacts. As a developer you might be wondering
+how to setup our own.
+
+This blog post will cover how you can setup your own Maven repository with Artipie.
 
 ## Installation
 
@@ -58,7 +62,7 @@ As a results, you will have the following files structure:
     └── my-maven.yaml
 ```
 
-If you have completed all the instructions correctly now you should be able to use the repository: deploy and install artifacts.
+If you have completed all the instructions correctly now you should be able to use the repository: deploy and install Maven artifacts.
 
 ## Configuring project to use your Artipie maven repository
 
@@ -88,6 +92,13 @@ That is it.
 
 ## Advanced options
 
-Apart from demonstrated possibilities, Artipie Maven supports: group repositories, proxies and authorization.
-Check out the corresponding [documentation section](https://github.com/artipie/artipie/tree/master/examples/maven)
+Apart from demonstrated possibilities, Artipie Maven supports:
+group repositories, proxies and authorization.
+Check out the corresponding
+[documentation section](https://github.com/artipie/artipie/tree/master/examples/maven)
 for more details.
+
+## Conclusion
+
+In this blog post it's been explained how to setup own Maven repository and how to
+configure your project to use it.
