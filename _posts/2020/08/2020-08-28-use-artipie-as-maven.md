@@ -7,6 +7,7 @@ description: This blog post explains how to use Artipie as maven repository.
 keywords:
   - artipie
   - maven
+  - repository
   - java
   - hosting of artifacts
 ---
