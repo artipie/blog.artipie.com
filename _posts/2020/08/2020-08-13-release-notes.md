@@ -24,9 +24,9 @@ here is the list of key features introduced this month:
 
 ### Maven adapter
 Maven deploy workflow improved:
-- support checksum and etag headers
-- artifacts validation on upload
-- proxy cache verification implemented
+- [support checksum and etag headers](https://github.com/artipie/maven-adapter/issues/117)
+- [artifacts validation on upload](https://github.com/artipie/maven-adapter/issues/113)
+- [proxy cache verification](https://github.com/artipie/maven-adapter/issues/146) implemented
 
 ### Pypi support
 [Pypi-adapter](https://github.com/artipie/pypi-adapter) was released and added to Artipie, we
