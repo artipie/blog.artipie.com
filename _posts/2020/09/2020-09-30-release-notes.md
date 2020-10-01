@@ -35,4 +35,8 @@ configured to listen on multiple ports, port can be specified for each repositor
 - integration tests were implemented for [docker](https://github.com/artipie/artipie/issues/449), 
 [maven](https://github.com/artipie/artipie/issues/535) 
 and [files](https://github.com/artipie/artipie/issues/603) adapters 
-
+- Files adapter now [supports](https://github.com/artipie/files-adapter/issues/15) `DELETE` operation to remove files from the storage
+- [basic authentication](https://github.com/artipie/go-adapter/issues/62) support was added to Go adapter
+- [distributed locks](https://github.com/artipie/asto/issues/214) were added to Maven and NuGet adapters to avoid race conditions on adding artifacts
+- [Maven proxy](https://github.com/artipie/maven-adapter/issues/197) was covered with tests and fixed
+- we added visualisation to our [benchmarks](https://artipie.github.io/artipie/benchmarks/index.html)
