@@ -1,11 +1,11 @@
 ---
 layout: post
-date: 2020-09-30
+date: 2020-10-02
 title: "0.11: Release Notes"
 author: olenagerasimova
 description: |
   Key features and improvements description in the recent
-  version 0.11, released just a few days ago.
+  version 0.11, released just a few hours ago.
 keywords:
   - artipie
   - binary artifacts
@@ -16,7 +16,7 @@ keywords:
   - permissions
 ---
 
-[v0.11](https://github.com/add/link/to/release) was released on October XX. This month we focused 
+[v0.11](https://github.com/artipie/artipie/releases/tag/0.10) was released on October 2. In September, we focused 
 on creating [HTTP REST API](https://github.com/artipie/artipie/issues/575) to make Artipie compatible 
 with existing products.
 
