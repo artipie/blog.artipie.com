@@ -26,7 +26,7 @@ authentication and caching in the local storage can be configured for each proxy
 - [maven-proxy](https://github.com/artipie/artipie/tree/master/examples/maven) (multiple remotes are supported)
 - [npm-proxy](https://github.com/artipie/artipie/tree/master/examples/npm#npm-proxy-repo)
 - [pypi-proxy](https://github.com/artipie/artipie/tree/master/examples/pypi#python-proxy)
-- [files-proxy](//todo add link)
+- [files-proxy](https://github.com/artipie/artipie/tree/master/examples/binary#proxy-binary-repo)
 
 We also worked on another features in Artipie:
 - pypi-adapter now [supports](https://github.com/artipie/pypi-adapter/issues/135) `pip search` command
