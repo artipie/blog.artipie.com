@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-10-28
+date: 2020-10-29
 title: "0.12: Release Notes"
 author: olenagerasimova
 description: |
@@ -16,7 +16,8 @@ keywords:
   - permissions
 ---
 
-v0.12 was released on NN. In October, we focused on extending and adding proxy for our adapters. 
+[v0.12](https://github.com/artipie/artipie/releases/tag/0.12) was released on October 29. 
+In October, we focused on extending and adding proxy for our adapters. 
 First, we implemented basic and bearer authentication in our [http-client](https://github.com/artipie/http-client), 
 then supported authentication for proxy in different adapters. Here is the list of the proxy adapters, 
 authentication and caching in the local storage can be configured for each proxy:
