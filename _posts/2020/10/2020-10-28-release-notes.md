@@ -29,7 +29,7 @@ authentication and caching in the local storage can be configured for each proxy
 - [files-proxy](https://github.com/artipie/artipie/tree/master/examples/binary#proxy-binary-repo)
 
 We also worked on another features in Artipie:
-- pypi-adapter now [supports](https://github.com/artipie/pypi-adapter/issues/135) `pip search` command
+- Artipie is now [compatible](https://github.com/artipie/pypi-adapter/issues/135) with `pip search` command
 - field `time` is [supported](https://github.com/artipie/npm-adapter/issues/119) now on update in npm-adapter 
 - we introduced different local storage [cache mechanisms](https://github.com/artipie/asto/issues/284) in asto, these implementations 
 are used in all our proxy-adapters
