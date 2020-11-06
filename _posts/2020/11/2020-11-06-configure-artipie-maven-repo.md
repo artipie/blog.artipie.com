@@ -118,5 +118,5 @@ for more details.
 
 ## Conclusion
 
-In this blog post I explained how to setup own Maven repository with Artipie and how to
+In this blog post I explained how to set up own Maven repository with Artipie and how to
 configure a Maven project to use it. 
