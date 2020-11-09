@@ -78,7 +78,7 @@ In case you want to `mvn install` deployed packages from Artipie then add the fo
 ```
 If you have completed all the instructions correctly now you should be able to use the repository: deploy and install Maven artifacts.
 
-**Configure Artipie with authentication**
+## Configure Artipie with authentication
 
 If you want to use authentication for users then you need to add a section with credentials to the `artipie.yaml`. In this case, the file with settings should look like this:
 
