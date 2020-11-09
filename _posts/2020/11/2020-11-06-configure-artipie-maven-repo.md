@@ -3,7 +3,7 @@ layout: post
 date: 2020-11-06
 title: "Using Artipie as a maven repository"
 author: Alexander Krasnov
-description: This blog post explains how to use Artipie as a maven repository.
+description: This blog post explains how to use Artipie as a Maven repository.
 keywords:
   - artipie
   - private
@@ -12,8 +12,6 @@ keywords:
   - registry
   - java
 ---
-Rather I'd suggest you to state problem our client may solve using Artipie: breaking some big repository into multiple repositories possibly developed by different people/teams.  
- and with other developers from their company
 
 ## Introduction
 
