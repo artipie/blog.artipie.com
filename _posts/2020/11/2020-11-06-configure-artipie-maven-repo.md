@@ -3,7 +3,7 @@ layout: post
 date: 2020-11-06
 title: "Using Artipie as a maven repository"
 author: Alexander Krasnov
-description: This blog post explains how to use Artipie as a Maven repository.
+description: This blog post explains how to use Artipie as a maven repository.
 keywords:
   - artipie
   - private
@@ -12,10 +12,14 @@ keywords:
   - registry
   - java
 ---
+Rather I'd suggest you to state problem our client may solve using Artipie: breaking some big repository into multiple repositories possibly developed by different people/teams.  
+ and with other developers from their company
 
 ## Introduction
 
-Nowadays Apache Maven is [one of the most popular](https://www.baeldung.com/java-in-2019#build-tools-adoption) build management tool for Java. Many companies that do Java development have private Maven repositories, where they store all the artifacts. For example, the team does not work in open source and has some private artifacts. This team needs to share easily and quickly among themselves and with other developers from their company. Or you might be wondering how to set up an own repository for a pet project. [Artipie](https://github.com/artipie/artipie) allows you to solve this problem as it is a binary artifact management tool. In the blog post I will share with you how to configure Artipie and project for this purpose. Let's start!
+As we know, Apache Maven is one of the most popular build management tool for Java. Many companies that do Java development have private Maven repositories, where they store all the artifacts. There are some problems with management when many developers work with a huge repository.    
+Let's assume, you need to restrict access to artifacts. So, it's necessary to split this one into several small repositories or add authentication for users. But at the same time you want to keep the ability to share easily and quickly within a team or between multiple teams of developers. Or you are just wondering how to set up an own repository for a pet project.  
+[Artipie](https://github.com/artipie/artipie) allows you to solve these problems as it is a binary artifact management tool. In the blog post I will share with you how to configure Artipie and project for this purpose. Let's start!
 
 ## Installation
 
@@ -26,18 +30,6 @@ meta:
   storage:
     type: fs
     path: /var/artipie/configs
-```
-
-If you want to use authentication for users then you need to add a section with credentials to the `artipie.yaml`. In this case, the file with settings should look like this:
-
-```yml
-meta:
-  storage:
-    type: fs
-    path: /var/artipie/configs
-  credentials:
-    type: file
-    path: _credentials.yml
 ```
 
 After that you can install and run Artipie with docker:
@@ -52,7 +44,7 @@ $ docker run -d --name artipie \
 
 ## Configuring Artipie as a maven repository
 
-In the previous step we created a file with settings for Artipie. Now let's see what the configuration file for the repository should look like. For this, we need to create `configs` directory and the following `my-maven.yaml` file inside:
+In the previous step, we created a file with settings for Artipie. Now let's see what the configuration file for the repository should look like. For this, we need to create `configs` directory and the following `my-maven.yaml` file inside:
 
 ```yml
 repo:
@@ -61,30 +53,14 @@ repo:
     type: fs
     path: /var/artipie/data
 ```
-
-If you added a section with credentials to the `artipie.yaml`, you also need to create a `_credentials.yml` file in the `configs` directory. Each node is a user name. The supported types of password can be found [here](https://github.com/artipie/artipie/blob/700eb89352126e6f1bd12a0d3ff668abf2b44048/README.md#multitenancy) The file with credentials should look like this:
-
-```yml
-credentials:
-  alice:
-    type: plain
-    pass: 123
-  bob:
-    type: plain
-    pass: qwerty
-```
-
 As a results, you will have the following files structure:
 
 ```bash
 .
 ├── artipie.yaml
 ├── configs
-    ├── my-maven.yaml
-    └── _credentials.yml # optinal
+    └── my-maven.yaml
 ```
-
-If you have completed all the instructions correctly now you should be able to use the repository: deploy and install Maven artifacts.
 
 ## Configuring project to use your Artipie maven repository
 
@@ -109,6 +85,46 @@ In case you want to `mvn install` deployed packages from Artipie then add the fo
     </repository>
 </repositories>
 ```
+If you have completed all the instructions correctly now you should be able to use the repository: deploy and install Maven artifacts.
+
+## Configure Artipie with authentication
+
+If you want to use authentication for users then you need to add a section with credentials to the `artipie.yaml`. In this case, the file with settings should look like this:
+
+```yml
+meta:
+  storage:
+    type: fs
+    path: /var/artipie/configs
+  credentials:
+    type: file
+    path: _credentials.yml
+```
+
+Also, it's necessary to create a `_credentials.yml` file in the `configs` directory. Each node is a user name. The supported types of password can be found [here](https://github.com/artipie/artipie/blob/700eb89352126e6f1bd12a0d3ff668abf2b44048/README.md#multitenancy) The file with credentials should look like this:
+
+```yml
+credentials:
+  alice:
+    type: plain
+    pass: 123
+  bob:
+    type: plain
+    pass: qwerty
+```
+
+As a results, you will have the following files structure:
+
+```bash
+.
+├── artipie.yaml
+├── configs
+    ├── my-maven.yaml
+    └── _credentials.yml
+```
+
+Don't forget to run Artipie server with docker and to update `pom.xml` of your project as shown in the sections above. If all the steps were done correctly you should be able to use the repository with authentication: deploy and install Maven artifacts.
+
 
 ## Advanced options
 
@@ -119,4 +135,4 @@ for more details.
 ## Conclusion
 
 In this blog post I explained how to set up own Maven repository with Artipie and how to
-configure a Maven project to use it. 
+configure a Maven project to use it. I hope now it will be easier and less time-consuming to manage the repository by using Artipie.
