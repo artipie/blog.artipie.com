@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-11-23
-title: "Some name"
+title: "Python And Binary Repositories"
 author: olenagerasimova
 description: This blog post shows how binary and pypi repositories can be used.
 keywords:
@@ -63,7 +63,7 @@ python3 -m pip install --index-url https://central.artipie.com/olenagerasimova/p
 python3 -m pypiexample
 ``` 
 
-I hope that you see a polar plot with three curves, visualisation of our data files. 
+If you run these commands then you will a polar plot with three curves, visualisation of our data files. 
 
 To publish package to the Artipie Central repository build it with `sdist` and use `twine` for upload:
 
@@ -136,5 +136,5 @@ The Python example downloads these files and visualise them on the polar plot.
 
 As this binary repository API is very simple (http `PUT` and `GET` requests), it's easy to write 
 a piece of code in any language to upload and downloads necessary files. What is also important, 
-authorisation is supported in Artipie, so it's possible to grant rights to upload/download from 
+authorization is supported in Artipie, so it's possible to grant rights to upload/download from 
 the repository how it suits your case. 
