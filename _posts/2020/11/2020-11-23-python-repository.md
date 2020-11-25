@@ -30,8 +30,9 @@ running on your private server in the private network.
 ## Python Repository
 
 Artipie supports [PyPi repository](https://github.com/artipie/artipie/tree/master/examples/pypi) which
-`twine` and `pip` can perfectly understand. This means that you can work with Artipie Python 
-repository exactly as you do while installing or publishing packages from or to [PyPI](https://pypi.org/) 
+[`twine`](https://github.com/pypa/twine) and [`pip`](https://pip.pypa.io/en/stable/) can perfectly 
+understand. This means that you can work with Artipie Python repository exactly as you do while 
+installing or publishing packages from or to [PyPI](https://pypi.org/) 
 and [TestPyPI](https://test.pypi.org/) repos. Here is my PyPi repository configuration from 
 Artipie Central:
 
@@ -63,9 +64,10 @@ python3 -m pip install --index-url https://central.artipie.com/olenagerasimova/p
 python3 -m pypiexample
 ``` 
 
-If you run these commands then you will a polar plot with three curves, visualisation of our data files. 
+If you run these commands then you will see a polar plot with three curves, visualisation of our data files. 
 
-To publish package to the Artipie Central repository build it with `sdist` and use `twine` for upload:
+To publish package to the Artipie Central repository build it with 
+[`sdist`](https://docs.python.org/3/distutils/sourcedist.html) and use `twine` for upload:
 
 ```commandline
 python setup.py sdist bdist_wheel
