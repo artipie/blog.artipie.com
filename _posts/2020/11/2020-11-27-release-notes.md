@@ -10,14 +10,15 @@ keywords:
   - artipie
   - binary artifacts
   - hosting of artifacts
-  - maven
-  - artipie rest api
-  - users
-  - permissions
+  - bearer authentication
+  - rpm-adapter
+  - docker-adapter
+  - nuget-adapter
+  - pypi-adapter
 ---
 
-[v0.13](https://add/link) was released on November 30. 
-Here is the list on the key changes:
+[v0.13](https://github.com/artipie/artipie/releases/tag/0.13) was released on November 27. 
+Here is the list of the key changes:
 
 - [rpm-adapter](https://github.com/artipie/rpm-adapter): we introduce an [instrument](https://github.com/artipie/rpm-adapter/issues/359) to properly 
 verify correctness of `repomd.xml`, any errors with metadata `xmls` are [properly](https://github.com/artipie/rpm-adapter/issues/323) handled now,
