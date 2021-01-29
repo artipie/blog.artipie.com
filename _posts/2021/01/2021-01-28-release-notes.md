@@ -15,9 +15,9 @@ keywords:
   - debian-adapter
 ---
 
-[v0.NN](https://example/link) was released on January NN. 
-We are happy to announce that minimal support for [Debian repository](https://wiki.debian.org/DebianRepository) was added to Artipie:
-you can [configure](https://github.com/artipie/artipie/tree/master/examples/debian) the repository 
+[v0.15](https://github.com/artipie/artipie/releases/tag/0.15) was released on January 29. 
+We are happy to announce that minimal support for [Debian repository](https://wiki.debian.org/DebianRepository) 
+was added to Artipie: you can [configure](https://github.com/artipie/artipie/tree/master/examples/debian) the repository 
 which [`apt-get`](https://en.wikipedia.org/wiki/APT_(software)) will be able to work with. 
 
 [Npm-adapter](https://github.com/artipie/npm-adapter) functionality was extended with the following commands support:
