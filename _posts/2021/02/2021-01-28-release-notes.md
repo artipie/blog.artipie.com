@@ -31,7 +31,7 @@ recursively along with the removed file. This change fixed connected
 to publish the package simple `curl` call can be used: `curl PUT your-archive.tgz`
 
 #### Granular Permissions For Docker Registry
-Docker-adapter support granular permissions, which means that some operations can be granted for 
+Docker-adapter supports granular permissions, which means that some operations can be granted for 
 specific scope and image. Here is the example docker repository settings yaml:
 ```yaml
 repo:
@@ -53,6 +53,6 @@ repo:
       - registry:catalog:*
 ```
 Each permission consists of three parts: `scope:name:action`, `scope` can be either "registry" for 
-the registry level operations or "repository". `Name` is the access recourse name, `action` can be 
+the registry level operations or "repository". `Name` is the access resource name, `action` can be 
 one of `pull`, `push`, `overwrite` or `*` (`*` stands for any action), `overwrite` works 
 for overwriting existing tags and allows creating new tags by default. 
