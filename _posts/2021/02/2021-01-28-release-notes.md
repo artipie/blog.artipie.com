@@ -28,7 +28,8 @@ recursively along with the removed file. This change fixed connected
 - Basic authentication was [added](https://github.com/artipie/composer-adapter/issues/71) to Composer-adapter
 - Writing big files operation performance was [improved](https://github.com/artipie/asto/pull/304) in Asto
 - Npm-adapter now [supports](https://github.com/artipie/npm-adapter/issues/188) `tgz` upload, 
-to publish the package simple `curl` call can be used: `curl PUT your-archive.tgz`
+to publish the package simple `curl` call can be used: `curl PUT your-archive.tgz`. Also, `unpublish`
+command now can remove the specified version of the package, not only the package entirely.
 
 #### Granular Permissions For Docker Registry
 Docker-adapter supports granular permissions, which means that some operations can be granted for 
