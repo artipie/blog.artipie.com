@@ -15,7 +15,7 @@ keywords:
   - npm-adapter
 ---
 
-[v0.NN](https://github.com/artipie/artipie/releases/tag/0.NN) was released on March NN. 
+[v0.17](https://github.com/artipie/artipie/releases/tag/0.17) was released on March 17. 
 Several important features were implemented in Debian-adapter: 
 - [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) clearsign signature is now [supported](https://github.com/artipie/debian-adapter/issues/29) 
 by the adapter, meaning that `Release` index files are now signed with gpg;
