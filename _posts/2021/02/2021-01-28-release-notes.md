@@ -17,7 +17,7 @@ keywords:
   - asto
 ---
 
-[v0.NN](https://github.com/artipie/artipie/releases/tag/0.NN) was released on February NN. 
+[v0.16](https://github.com/artipie/artipie/releases/tag/0.16) was released on February 16. 
 Here is the list of other implemented features and important fixes:
 - Docker-adapter now supports [overwrite](https://github.com/artipie/docker-adapter/issues/434) 
 permission for tags
