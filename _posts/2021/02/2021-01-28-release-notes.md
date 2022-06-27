@@ -23,7 +23,7 @@ Here is the list of other implemented features and important fixes:
 permission for tags
 - Release index file is now fully [supported](https://github.com/artipie/debian-adapter/issues/41) in Debian-adapter
 - `FileStorage` `delete` operation was improved: now we also remove [empty directories](https://github.com/artipie/asto/issues/302) 
-recursively along with the removed file. This change fixed co16ected 
+recursively along with the removed file. This change fixed connected 
 [bug](https://github.com/artipie/docker-adapter/issues/435) in Docker-adapter
 - Basic authentication was [added](https://github.com/artipie/composer-adapter/issues/71) to Composer-adapter
 - Writing big files operation performance was [improved](https://github.com/artipie/asto/pull/304) in Asto

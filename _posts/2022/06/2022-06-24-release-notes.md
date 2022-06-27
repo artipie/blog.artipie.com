@@ -14,7 +14,7 @@ keywords:
   - dashboard
 ---
 
-Hello, it's been a while since the last Artipie blog post. Dispute of the absence of the posts, 
+Hello, it's been a while since the last Artipie blog post. Despite the absence of the posts, 
 Artipie has been constantly developing, growing and improving the whole time. 
 Today, we want to introduce our [roadmap](https://github.com/orgs/artipie/projects/3), invite you to
 join our [Telegram](https://t.me/artipie) group and remind you, that we have 
@@ -24,7 +24,11 @@ use `github.com/your_username` as login (your GitHub username with `github.com/`
 access token as password in Artipie central. If any questions appear, contact us in 
 [Telegram](https://t.me/artipie).
 
-Here is a list of the repositories types Artipie now support:
+Artipie docker image version v0.24.0 is already available in DockerHub (you can use `latest` tag), 
+fat `jar` file can be downloaded from GitHub release 
+[page](https://github.com/artipie/artipie/releases/tag/v0.24.0).
+
+Here is a list of the repositories types Artipie now supports:
 - Maven - Java artifacts and dependencies
 - Docker - Docker containers repository
 - NPM - JavaScript code sharing and packages store
