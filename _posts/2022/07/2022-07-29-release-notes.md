@@ -5,7 +5,7 @@ title: "v0.25.0: Release Notes"
 author: olenagerasimova
 description: |
   Key features and improvements description in the recent
-  version v0.25.0, released just a few hours ago.
+  version v0.25.1, released just a few hours ago.
 keywords:
   - artipie
   - binary artifacts
@@ -14,7 +14,8 @@ keywords:
   - dashboard
 ---
 
-This month we mostly focused on Artipie documentation and wiki improvements, we are also preparing 
+[v0.25.1](https://github.com/artipie/artipie/releases/tag/v0.25.1) was released on July 29. This 
+month we mostly focused on Artipie documentation and wiki improvements, we are also preparing 
 some articles and posts. The links will be available here as soon as we publish them. Besides, the
 following changes were made: 
 - [Single repository on port](https://github.com/artipie/artipie/wiki/Configuration-Repository#single-repository-on-port) use case was [fixed](https://github.com/artipie/artipie/issues/1041): 
