@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2022-10-06
+date: 2022-10-05
 title: "v0.27.0: Release Notes"
 author: olenagerasimova
 description: |
@@ -14,7 +14,7 @@ keywords:
   - rest api
 ---
 
-[v0.27.0](https://github.com/artipie/artipie/releases/tag/v0.27.0) was released on September 30. 
+[v0.27.0](https://github.com/artipie/artipie/releases/tag/v0.27.0) was released on October 5. 
 This time we are releasing management Rest API. The API allows to manage Artipie repositories, 
 storages and users. API is self-documented with [Swagger](https://swagger.io/)
 interface. 
