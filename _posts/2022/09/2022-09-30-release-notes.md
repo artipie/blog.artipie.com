@@ -1,11 +1,11 @@
 ---
 layout: post
-date: 2022-09-30
-title: "v0.26.0: Release Notes"
+date: 2022-10-06
+title: "v0.27.0: Release Notes"
 author: olenagerasimova
 description: |
   Key features and improvements description in the recent
-  version v0.26.0, released just a few days ago.
+  version v0.27.0, released just a few days ago.
 keywords:
   - artipie
   - binary artifacts
@@ -14,7 +14,7 @@ keywords:
   - rest api
 ---
 
-[v0.27.0](https://github.com/artipie/artipie/releases/tag/NN) was released on September 30. 
+[v0.27.0](https://github.com/artipie/artipie/releases/tag/v0.27.0) was released on September 30. 
 This time we are releasing management Rest API. The API allows to manage Artipie repositories, 
 storages and users. API is self-documented with [Swagger](https://swagger.io/)
 interface. 
