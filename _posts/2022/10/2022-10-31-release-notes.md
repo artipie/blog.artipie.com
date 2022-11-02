@@ -15,13 +15,13 @@ keywords:
 ---
 
 Artipie was represented in [DevOops](https://devoops.ru/) conference on October 19 in 
-Saint-Petersburg. Our current team-leader Denis Gurus told how to Artipie with Maven and Docker
+Saint-Petersburg. Our current team-leader Denis Gurus told how to use Artipie with Maven and Docker
 repositories. Find the workshop announce [here](https://devoops.ru/talks/827cdd91b1fb40cbae91d1335dcd54d1/).
 
 [v0.27.4](https://github.com/artipie/artipie/releases/tag/v0.27.4) was released on October 27. The 
 last and current months we are working on Artipie monitoring and metrics. The goal is to provide easy to
 use and understand system, which will allow us to know what is happening in the Artipie, how fast
-the artifacts can be uploaded and downloaded, catch and fix any problems right on time. The firsts
+the artifacts can be uploaded and downloaded, catch and fix any problems right on time. The first
 steps in this direction were made some time ago, and we already have some measurement instruments. 
 To enable all currently available metrics, add the following section into [main configuration yaml](https://github.com/artipie/artipie/wiki/Configuration):
 
