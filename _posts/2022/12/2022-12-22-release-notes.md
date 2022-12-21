@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2022-12-22
+date: 2022-12-21
 title: "v0.28.0: Release Notes"
 author: olenagerasimova
 description: |
@@ -21,7 +21,7 @@ At the end of November, [Dzone](https://dzone.com/) has published our article:
 [Private Remote Maven Repository With Artipie](https://dzone.com/articles/private-remote-maven-repository-with-artipie-1). 
 We will be happy to get any feedback!
 
-Artipie new version [v0.28.0](https://github.com/artipie/artipie/releases/tag/v0.28.0) was released on December 28. 
+Artipie new version [v0.28.0](https://github.com/artipie/artipie/releases/tag/v0.28.0) was released on December 21. 
 The previous two months we were working on Artipie monitoring and metrics. The goal is to provide easy to
 use and understand monitoring system, which will allow us to know what is happening in the Artipie, how fast
 the artifacts are uploaded and downloaded, catch and fix any problems right on time. We approached monitoring from two
