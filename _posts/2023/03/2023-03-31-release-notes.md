@@ -19,7 +19,7 @@ Artipie new version [v0.29.0](https://github.com/artipie/artipie/releases/tag/v0
 The previous months we were working on Artipie security policy and permissions. The goal is to introduce
 flexible security model, that can be implemented by users themselves, and transparent 
 permissions model, that can be extended in the repository adapter if necessary. We took [Java Security](https://docs.oracle.com/cd/E12839_01/core.1111/e10043/introjps.htm#JISEC1801)
-as an example, and created role-based model to grant and verify user access permissions.
+as an example, and created a role-based model to grant and verify user access permissions.
 The main implementation components are policy and permissions. 
 
 Policy grants permissions to users and roles, or, in other words, in Artipie, policy is the format 
