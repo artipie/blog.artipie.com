@@ -5,7 +5,7 @@ title: "v0.29.0: Release Notes"
 author: olenagerasimova
 description: |
   Key features and improvements description in the recent
-  version v0.23.0, released just a few days ago.
+  version v0.29.0, released just a few days ago.
 keywords:
   - artipie
   - binary artifacts
