@@ -26,7 +26,7 @@ Policy grants permissions to users and roles, or, in other words, in Artipie, po
 in which permissions and roles are assigned to users. We provide out of the box policy in `yaml` format, 
 but it's also possible to implement any custom policy format and linked it up to Artipie.
 
-Permission grants access to some operation in the repository. Repository (or adapter) requires some
+Permission grants access to some operations in the repository. Repository (or adapter) requires some
 specific permission for some operation and whether allows or not to perform the operation. 
 Permissions are inherited from `java.security.Permission` and `java.security.PermissionCollection`, 
 there is no way to directly prohibit the operation, it's only possible to allow it. User permissions
