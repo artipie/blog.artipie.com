@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2023-05-02
-title: "v0.29.0: Release Notes"
+title: "v0.30.0: Release Notes"
 author: olenagerasimova
 description: |
   Key features and improvements description in the recent
