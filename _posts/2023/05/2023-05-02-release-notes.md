@@ -32,4 +32,4 @@ in [wiki](https://github.com/artipie/artipie/wiki/Configuration-Policy#rest-api-
 credentials in YAML configuration anymore. Credentials for S3 storage can set via Java System Properties, environmental 
 variables, in `~/.aws/credentials` file or any other way supported by default AWS provider.
 
-Thanks for reading, if you have any question or suggestion feel free to [create an issue](https://github.com/artipie/artipie/issues/new) or contact us in [Telegram](https://t.me/artipie).
+Thanks for reading, if you have any questions or suggestions, feel free to [create an issue](https://github.com/artipie/artipie/issues/new) or contact us on [Telegram](https://t.me/artipie).
